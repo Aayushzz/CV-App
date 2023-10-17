@@ -1,0 +1,62 @@
+/* Info.module.css */
+
+.container {
+    width: 100%;
+    background-color: #f0f0f0; /* Light background color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  
+  .opener {
+    background-color: #007bff; /* Blue color for the button */
+    color: white;
+    border: none;
+    border-radius: 50%; /* Make the button circular */
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none; /* Remove outline on click */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .opener:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spacing between input fields */
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc; /* Add a light border */
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff; /* Blue color for the submit button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  /* Add media queries for responsiveness if needed */
+  
